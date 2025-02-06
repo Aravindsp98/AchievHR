@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+env/
+venv/
+ENV/
+VENV/
+env.bak/
+venv.bak/
+*.env
+*.DS_Store
+
+# FastAPI
+# If your project is hosted under a specific directory
+instance/
+*.sqlite3
+
+# Docker
+*.dockerfile
+docker-compose*.yml
+Dockerfile*
+.dockerignore
+
+# VS Code
+.vscode/
+.history/
+
+# Pytest
+.cache
+pytestdebug.log
+
+# Jupyter Notebook
+*.ipynb_checkpoints
+
+# Poetry
+poetry.lock
+
+# Other
+*.log
+*.tmp
+*.cfg
